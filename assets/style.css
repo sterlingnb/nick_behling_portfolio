@@ -39,9 +39,14 @@ section {
     border-radius: 15px;
     border-color: turquoise;
     padding: 10px;
-    flex:auto
+    flex: 0 0 400px;
 }
 .projects:hover {
     background-color: bisque;
     
+}
+.wrapingimage {
+    float: left;
+    margin: 30px 12px;
+    border: 2px turquoise;
 }
