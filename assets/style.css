@@ -10,7 +10,9 @@
 }
 
 .boxed {
-    border: 10px turquoise;
+    border-style: solid;
+    border-color: turquoise;
+    border-radius: 5px;
 }
 
 a:hover {
@@ -38,6 +40,8 @@ section {
     border-color: turquoise;
     padding: 10px;
     flex:auto
-
-
+}
+.projects:hover {
+    background-color: bisque;
+    
 }
