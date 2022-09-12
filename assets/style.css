@@ -45,8 +45,10 @@ section {
     background-color: bisque;
     
 }
-.wrapingimage {
-    float: left;
-    margin: 30px 12px;
-    border: 2px turquoise;
-}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
