@@ -64,3 +64,7 @@ img:hover {
   .flex-container {
     display: flex;
   }
+
+  nav {
+    float: right;
+  }
