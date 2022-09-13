@@ -33,22 +33,35 @@ section {
     display: block;
 }
 
-.projects {
+/*.projects {
     border-style: solid;
     border-width: 5px;
     border-radius: 15px;
     border-color: turquoise;
     padding: 10px;
     flex: 0 0 400px;
-}
-.projects:hover {
-    background-color: bisque;
-    
-}
+}*/
 
 img {
-    border: 1px solid #ddd;
+    
     border-radius: 4px;
-    padding: 5px;
-    width: 150px;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+
+img:hover {
+    color: blanchedalmond;
+    opacity: .5;
+}
+
+.imagetext {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .flex-container {
+    display: flex;
   }
