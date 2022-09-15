@@ -18,12 +18,16 @@ a:hover {
     background-color: turquoise;
     color: #808080;
     transition: .5s ease;
+    opacity: .75;
+    border-radius: 50%;
     
 }
-
-a {
+  a {
     color: turquoise;
-}
+    text-decoration: none;
+    
+  }
+
 
 .section {
     text-decoration: underline #808080;
@@ -62,3 +66,4 @@ img:hover {
   nav {
     float: right;
   }
+
