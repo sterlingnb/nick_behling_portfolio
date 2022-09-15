@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-.header {
+.page-header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: 	#778899;
 }
@@ -25,6 +25,9 @@ a:hover {
   a {
     color: lightskyblue;
     text-decoration: none;
+    float: middle;
+    padding: 10px;
+    margin-top: 20px;
     
   }
 
@@ -32,33 +35,20 @@ a:hover {
 .section-title {
     text-decoration: none;
     color: lightslategray;
-    border-right: solid 1px gray;
-    width: 125px;
+    border-right: solid 3px gray;
+    width: 190px;
+    font-size: 35px;
 
     
 }
 
-section {
-    /* display: block; */
-}
 
-img {
-    border: #87cefa;
-    border-style: solid;
-    border-radius: 5%;
-    width: 200px;
-    height: 200px;
-    /* z-index: -1; */
+.first-img {
+    background-image: url("./images/pexels-pixabay-35543.jpg");
+    background-size: 500px 500px;
+    padding: 50px;
   }
 
-
-
-/* .imagetext {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: 18px;
-  } */
 
   .flex-container {
     display: flex;
@@ -72,7 +62,7 @@ img {
 .projects{
     border: #87cefa;
     border-style: solid;
-    border-radius: 5%;
+    
     width: 400px;
     height: 200px;
     z-index: -1;
@@ -80,38 +70,44 @@ img {
     bottom: 8px;
     left: 16px;
     font-size: 18px;
+    padding: 10px
 }
 
 .surf{
   background-image: url("./images/pexels-oliver-sjöström-1005456.jpg");
-  background-size: 100% 500px;
+  background-size: 200px 400px;
+  margin: 10px;
   
 }
 
 .led{
   background-image: url("./images/pexels-tnarg-1606386.jpg");
   background-size: 200px 200px;
+  margin: 10px;
 }
 
 .calc{
   background-image: url("./images/pexels-karolina-grabowska-6958539.jpg");
   background-size: 200px 200px;
+  margin: 10px;
 }
 
 .pastel{
   background-image: url("./images/pexels-ann-h-3482442.jpg");
   background-size: 200px 200px;
+  margin: 10px;
 }
 
 .run{
   background-image: url("./images/pexels-mateusz-dach-332835.jpg");
   background-size: 200px 200px;
+  margin: 10px;
 }
 
 .first-project{
   border: #87cefa;
     border-style: solid;
-    border-radius: 5%;
+    
     width: 100%;
     height: 500px;
     z-index: -1;
@@ -126,4 +122,29 @@ section:hover {
     /* opacity: .75; */
     /* transition: .5s ease; */
     opacity: 75%;
+}
+
+footer {
+  padding: 10px;
+  
+}
+
+.sec-head{
+
+  font-size: 25px;
+
+}
+
+.work{
+  text-decoration: none;
+    color: lightslategray;
+    border-right: solid 3px gray;
+    width: 190px;
+    font-size: 35px;
+}
+
+.pro-txt{
+background-color: #87cefa;
+text-align: bottom;
+
 }
